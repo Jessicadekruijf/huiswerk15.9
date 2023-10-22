@@ -1,0 +1,103 @@
+header  {
+    padding: 5px;
+}
+
+body    {
+    background-color:seashell;
+    padding: 5px;
+}
+    
+h1      {
+    color:saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ul a    {
+    color: white;
+    text-decoration: none;
+}
+
+li      {
+    display: inline-block;
+    height: 20px;
+    width: 380px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dotted;
+    background-color:hotpink;
+}
+
+li:hover {
+    background-color:saddlebrown;
+    border-style:dashed;
+}
+
+p       {
+    color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer  {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-color: saddlebrown;
+    text-align: center;
+    padding: 5px;
+}
+
+form    {
+    color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+input[type=text], input[type=email], textarea, button  {
+    display: block;
+    margin: 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: saddlebrown;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea    {
+    height: 100px;
+    padding: 5px 4px;
+}
+
+button:active  {
+    background-color: hotpink;
+    color: white;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px white;
+    cursor: pointer;
+}
+
+table, th, td   {
+    border: 1px solid;
+    border-color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: saddlebrown;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img     {
+    height: 300px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
